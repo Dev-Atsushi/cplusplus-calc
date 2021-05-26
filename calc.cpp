@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctype.h>
 using namespace std;
 
 int main()
@@ -19,7 +20,7 @@ int main()
   cout << "Please enter another number: ";
   cin >> secondNumber;
 
-  cout << "Do you prefer [multiplication, division, addition or subtraction]? ";
+  cout << "Do you prefer [multiplication, division, sum or subtraction]? ";
   cin >> type;
 
   if(type == "multiplication")
