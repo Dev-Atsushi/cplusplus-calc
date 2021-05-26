@@ -14,9 +14,9 @@ int main()
   string multiplicationPhrase = "The multiplication between them is ";
   string divisionPhrase = "The division between them is ";
 
-  cout << "Favor digite um numero: ";
+  cout << "Please enter a number: ";
   cin >> firstNumber;
-  cout << "Favor digite outro numero: ";
+  cout << "Please enter another number: ";
   cin >> secondNumber;
 
   cout << "Do you prefer [multiplication, division, addition or subtraction]? ";
